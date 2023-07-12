@@ -1,0 +1,33 @@
+{
+  "name": "lipcord",
+  "version": "0.0.1",
+  "description": "Discord HTTP Interaction Wrapper",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpecialAgency-Chat/lipcord.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "waki285 <suzuneu@suzuneu.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SpecialAgency-Chat/lipcord/issues"
+  },
+  "homepage": "https://github.com/SpecialAgency-Chat/lipcord#readme",
+  "dependencies": {
+    "discord-api-types": "^0.37.48",
+    "events": "^3.3.0",
+    "hono": "^3.3.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.44.0",
+    "prettier": "^3.0.0"
+  }
+}
