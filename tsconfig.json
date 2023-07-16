@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "lib": ["DOM", "ESNext"],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "module": "ESNext",                                /* Specify what module code is generated. */
+    "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
+    "paths": {
+      "@/*": ["./src/*"]
+    },                                      /* Specify a set of entries that re-map imports to additional lookup locations. */
+    "moduleResolution": "Node",
+    "allowJs": true,                                  /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
+    "declaration": true,                              /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "removeComments": true,                           /* Disable emitting comments. */
+    "isolatedModules": true,                          /* Ensure that each file can be safely transpiled without relying on other imports. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "exactOptionalPropertyTypes": true,               /* Interpret optional property types as written, rather than adding 'undefined'. */
+    "noUncheckedIndexedAccess": true,                 /* Add 'undefined' to a type when accessed using an index. */
+    "noPropertyAccessFromIndexSignature": true,       /* Enforces using indexed accessors for keys declared using an indexed type. */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  },
+  "include": [
+    "src"
+  ]
+}
