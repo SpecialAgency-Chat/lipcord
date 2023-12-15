@@ -28,7 +28,7 @@
   "dependencies": {
     "discord-api-types": "^0.37.48",
     "events": "^3.3.0",
-    "hono": "^3.3.0"
+    "hono": "^3.11.7"
   },
   "devDependencies": {
     "@types/events": "^3.0.0",
